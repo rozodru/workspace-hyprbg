@@ -7,7 +7,9 @@ Arch: `pacman -S swaybg`
 Fedora: `dnf install swaybg`
 etc
 
-make sure you make the script executable with `exec-once = sh ~/.config/hypr/hyprbgchange.sh` in your hyprland.conf file
+make sure you make the script executable with `sudo chmod +x ~/.config/hypr/hyprbgchange.sh`
+
+add `exec-once = sh ~/.config/hypr/hyprbgchange.sh` in your hyprland.conf file
 
 after that add the keybindings for your workspace like:
 
